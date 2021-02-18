@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap");
+
+/* css files */
+@import "reset.css";
+@import "variables.css";
+@import "intro.css";
+
+body {
+  background-color: var(--beige);
+  font-family: "Gaegu", cursive;
+}
+
+/* bg-box 정중앙 정렬을 위함 */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 85%;
+  height: 90%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button {
+  height: 8vh;
+  width: 40vh;
+  border-radius: 40px;
+  background-color: white;
+  border: 2px solid var(--btn-color);
+  font-family: "Gaegu", cursive;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--btn-color);
+}

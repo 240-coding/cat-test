@@ -1,0 +1,10 @@
+.introduction {
+  margin-top: 18vh;
+  margin-bottom: 5vh;
+  font-size: 1.8rem;
+}
+
+.intro__img img {
+  height: 35vh;
+  margin-bottom: 5vh;
+}
