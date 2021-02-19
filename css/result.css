@@ -1,0 +1,26 @@
+.result-title {
+  margin-top: 12vh;
+  margin-bottom: 5vh;
+  font-size: var(--font-size-big);
+  line-height: 120%;
+}
+
+.result-title h4 {
+  font-size: var(--font-size-small);
+  color: #856b69;
+}
+
+.result-title h1 {
+  font-weight: 700;
+  font-size: var(--font-size-big);
+}
+
+#result-title__your {
+  line-height: 300%;
+  color: var(--btn-color);
+}
+
+.result-image img {
+  height: 35vh;
+  margin-bottom: 5vh;
+}

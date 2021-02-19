@@ -6,10 +6,13 @@
 
 @import "intro.css";
 @import "progress.css";
+@import "result.css";
 
 body {
   background-color: var(--beige);
   font-family: "Gaegu", cursive;
+  font-size: var(--font-size-small);
+  text-align: center;
 }
 
 /* bg-box 정중앙 정렬을 위함 */
