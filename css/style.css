@@ -3,7 +3,9 @@
 /* css files */
 @import "reset.css";
 @import "variables.css";
+
 @import "intro.css";
+@import "progress.css";
 
 body {
   background-color: var(--beige);
@@ -30,8 +32,9 @@ section {
 }
 
 button {
+  margin-bottom: 1.8vh;
   height: 8vh;
-  width: 40vh;
+  width: 70vw;
   border-radius: 40px;
   background-color: white;
   border: 2px solid var(--btn-color);
@@ -42,4 +45,8 @@ button {
 
 button:hover {
   background-color: var(--btn-color);
+}
+
+.hidden {
+  display: none;
 }

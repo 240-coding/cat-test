@@ -1,7 +1,7 @@
 .introduction {
   margin-top: 18vh;
   margin-bottom: 5vh;
-  font-size: 1.8rem;
+  font-size: var(--font-size-big);
 }
 
 .intro__img img {
