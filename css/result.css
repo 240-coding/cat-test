@@ -32,6 +32,7 @@
 .result-recommend {
   display: flex;
   width: 100%;
+  margin-bottom: 5vh;
 }
 
 .recommend-title {
@@ -39,10 +40,31 @@
   font-size: var(--font-size-small);
 }
 
+.result-recommend__conlist {
+  margin-left: 30px;
+  line-height: 30px;
+}
+
+li::marker {
+  content: "💘";
+  font-size: 1rem;
+}
+
+li:before {
+  content: "";
+  display: inline-block;
+  height: 1rem; 
+  width: .5rem; 
+}
+
 .result-recommend__column {
   width: 50%;
   padding: 3%;
   text-align: left;
+}
+
+.result-recommend__column:first-child {
+  border-right: 1px solid #856b69;
 }
 
 .recommend-img {
@@ -54,4 +76,8 @@
 
 .recommend-details {
   text-align: center;
+}
+
+.more-info {
+  margin-bottom: 8vh;
 }
