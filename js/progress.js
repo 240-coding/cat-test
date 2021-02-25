@@ -25,7 +25,7 @@ function secondClick() {
 
 function setProbar(i) {
     progressBar.innerText = `${i+1}/9`;
-    progressNow.style.width = `${(i+1) * 10}%`;
+    progressNow.style.width = `calc(100% / 9 * ${i+1})`;
 }
 
 function setQna(i) {
@@ -39,15 +39,28 @@ function setQna(i) {
 
 function checkPart(nowNum) {
     if (nowNum === 3) {
+        calcResult(score)
         score = 0;
     }
     else if (nowNum === 6) {
+        calcResult(score)
         score = 0;
 
     }
     else if (nowNum === 9) {
+        calcResult(score)
         progress.classList.add("hidden");
         result.classList.remove("hidden");
+        setResult();
+    }
+}
+
+function calcResult(score) {
+    if (score < 0) {
+        resultName += "A";
+    }
+    else {
+        resultName += "B";
     }
 }
 
